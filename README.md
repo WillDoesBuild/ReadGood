@@ -1,5 +1,5 @@
 # ReadGood
-A handheld device that allows you to quickly read short stories.\
+A handheld device that allows you to quickly read short stories. [Here's a short video about it](https://youtu.be/mzEPI2XUYyI)
 
 ![nice angle](https://github.com/WillDoesBuild/ReadGood/blob/main/pictures/IMG_6320.JPG?raw=true)
 
