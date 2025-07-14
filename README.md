@@ -19,5 +19,5 @@ I have provided two versions of the software for this device.
 
 ## Limitations
 1. Please keep in mind that this repository during a 3-day hackathon. The software is messy and the instructions may be incomplete. I am writing this at 3 AM lol.
-2. Due to a possible hardware limitation with the RP2040 (I'm not entirely sure), the device can only hold a very limited number of characters. 'Full Program With Text Upload' can hold less, because it includes the software for txt uploads.
+2. Due to a possible hardware limitation with the RP2040 (I'm not entirely sure), the device can only hold a very limited number of characters (a little over 4230 characters). 'Full Program With Text Upload' can hold less, because it includes the software for txt uploads.
 3. **'Full Program With Text Upload' loads the uploaded text into the RP2040's RAM. Unfortunately, this means that the text file is deleted from the device when it is unplugged from the computer. A future change may be to load supplied text into the flash memory, but I do not have time :( (see limitation 1)**
