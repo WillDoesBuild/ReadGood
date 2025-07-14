@@ -1,7 +1,11 @@
 # ReadGood
 A handheld device that allows you to quickly read short stories.\
-\
-This device shows one word at a time, thus the tiny screen. I consider it the world's smallest kindle. It uses either a string that is flashed onto the device with the rest of the arduino program, or a text file that is loaded onto the device by acting as a USB drive.
+
+![nice angle](https://github.com/WillDoesBuild/ReadGood/blob/main/pictures/IMG_6320.JPG?raw=true)
+
+This device shows one word at a time, thus the tiny screen. I consider it the world's smallest kindle, though I have not researched this claim. It uses either a string that is flashed onto the device with the rest of the arduino program, or a text file that is loaded onto the device by acting as a USB drive. The choice of method depends on which provided program is used.
+
+![finished product](https://github.com/WillDoesBuild/ReadGood/blob/main/pictures/IMG_6295.JPG?raw=true)
 
 ## Hardware
 I used these materials for the hardware:
@@ -10,6 +14,10 @@ I used these materials for the hardware:
 3. 2 Relatively large pushbuttons
 4. Perfboard, cut to size for the case
 5. PLA plastic, black and white
+
+![stripped down](https://github.com/WillDoesBuild/ReadGood/blob/main/pictures/IMG_6321.JPG?raw=true)
+![electronics](https://github.com/WillDoesBuild/ReadGood/blob/main/pictures/IMG_6322.JPG?raw=true)
+![electronics again](https://github.com/WillDoesBuild/ReadGood/blob/main/pictures/IMG_6323.JPG?raw=true)
 
 ## 3D models and printing
 All models should be able to be printed without supports, except for the USB-C port on caseBase.stl. I printed it with an Bambu Labs A1 Mini. The CaseBase.stl should be printed with the "ReadGood" letters down so that they print cleanly. The CaseBase and CaseCap fit together with friction.
