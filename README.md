@@ -1,5 +1,7 @@
 # ReadGood
-A handheld device that allows you to quickly read short stories.
+A handheld device that allows you to quickly read short stories.\
+\
+This device shows one word at a time, thus the tiny screen. I consider it the world's smallest kindle. It uses either a string that is flashed onto the device with the rest of the arduino program, or a text file that is loaded onto the device by acting as a USB drive.
 
 ## Hardware
 I used these materials for the hardware:
@@ -16,6 +18,7 @@ All models should be able to be printed without supports, except for the USB-C p
 I have provided two versions of the software for this device. 
 1. 'Full Program' means that you have to hard-code the text to be displayed as a string in the C++ code. In the provided program, I have about half of the first chapter of the Hunger Games book as an example.
 2. 'Full Program With Text Upload' is the same as 'full program', but you need to upload a .txt file when prompted. Plug the SEEED into your computer and upload a .txt file into the USB port that appears.
+3. Press the right button to move to the next word. Press the left button to go to the previous word. Hold down either button to scroll in that direction continuosly. Briefly press both buttons at the same time to activate 'autoscroll' mode. This will scroll the words without any input. While in 'autoscroll' mode, hold down on either button to slow it down or speed it up. While in autoscroll mode, press both buttons briefly to stop autoscroll.
 
 ## Limitations
 1. Please keep in mind that this repository during a 3-day hackathon. The software is messy and the instructions may be incomplete. I am writing this at 3 AM lol.
